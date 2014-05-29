@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0; }
+body { font: 12px Georgia, serif; }
+
+#page-wrap2 { width: 600px; margin: 0 auto; }
+
+table { border-collapse: collapse; table-layout:fixed; width:100% }
+td, th { border: 1px solid #ccc; width: 10px; height: 10px; }
+thead { font: 12px Georgia, serif; font-weight:bold; font-style:italic;}
+
+.slim { width: 10px; height: 10px; }
+.hover { background-color: #eee; }
+
+.back-black { background-color: black; }
+.back-red { background-color: red; }
+
+.moduleName { 
+	font: 8px Georgia, serif; padding: 0px; white-space: nowrap; border:0;
+	position: absolute;
+	width: 600px;
+	/*
+	-webkit-transform: rotate(+45deg);
+	-moz-transform: rotate(+45deg);
+	-ms-transform: rotate(+45deg);
+	-o-transform: rotate(+45deg);
+	transform: rotate(+45deg);
+	transform-origin: 0% 100%;
+	-webkit-transform-origin: 0% 100%;
+	*/
+}
+
+.rotatedModuleName {
+	font: 8px Georgia, serif; 
+	padding: 0px;
+	border: 0;
+	white-space: nowrap;
+	width: 100%;
+	-webkit-transform: rotate(+45deg);
+	-moz-transform: rotate(+45deg);
+	-ms-transform: rotate(+45deg);
+	-o-transform: rotate(+45deg);
+	transform: rotate(+45deg);
+	transform-origin: 0% 100%;
+	-webkit-transform-origin: 0% 100%;
+}
+
+.info {
+	width: 500px;
+	background-color:#eee;
+	/*height: 100px;*/
+	text-align: center;
+	border: 0px solid #ddd;
+	padding:0px;
+	position: absolute;
+	left:-999999px;
+}
